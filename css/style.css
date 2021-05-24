@@ -8,6 +8,11 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
+
+.header ul li a.menu_ativo {
+  color: #fff;
+}
+
 /*INTRODUÇÃO INTERNA*/
 .introducao-interna {
   width: 100%;
