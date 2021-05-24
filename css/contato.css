@@ -1,0 +1,122 @@
+.introducao-interna-contato {
+  background: url("../img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*CONTATO*/
+
+.contato {
+  width: 100%;
+  color: #000;
+  margin-top: 30px;
+}
+.form {
+  padding-right: 60px;
+}
+.form label {
+  display: block;
+  margin: 0px 0 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.form input {
+  border: 4px solid #fec63e;
+  background: none;
+  width: 100%;
+  padding: 7px 0;
+  margin: 0 0 10px;
+}
+
+.form textarea {
+  border: 4px solid #fec63e;
+  background: none;
+  width: 100%;
+  padding: 7px 0;
+}
+
+.form button {
+  background: none;
+  border: solid #fec63e;
+  color: #fec63e;
+  margin: 15px 0 40px;
+  height: 40px;
+  width: 140px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+
+.form button:hover {
+  border: solid #fff;
+  color: #fff;
+}
+
+.contato-dados h3 {
+  font-size: 18px;
+  color: #fec63e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contato-dados .h3-2 {
+  margin-top: 40px;
+}
+
+.contato-dados ul {
+  padding-right: 60px;
+}
+.contato-dados ul li {
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: list-item;
+  padding: 10px 15px;
+}
+.contato-dados ul li:nth-child(odd) {
+  background-color: #1d1d1d;
+}
+.contato-dados span {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contato-dados span:nth-of-type(2) {
+  display: block;
+  font-size: 18px;
+}
+
+.contato-dados p {
+  margin: 8px 0;
+}
+
+.quebra-produto {
+  margin-top: 0px;
+}
+
+.contato-dados span:nth-of-type(3) {
+  margin-top: 40px;
+}
+
+.contato-dados span:nth-of-type(4) {
+  margin-bottom: 40px;
+}
+
+.subtitulo-contato {
+  color: #fec63e;
+  padding-bottom: 5px;
+}
+
+.subtitulo-contato::after {
+  background-color: #fff;
+}
+
+/*map*/
+
+.map {
+  background: url(../img/endereco-bikcraft.jpg) no-repeat center;
+  width: 100%;
+  height: 280px;
+  margin-bottom: 60px;
+}
