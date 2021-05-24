@@ -1,0 +1,110 @@
+.introducao-interna-produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+.passeio-caixa-1 {
+  background: url("../img/produtos/bikcraft-passeio-1.jpg") no-repeat center;
+  width: 640px;
+  height: 280px;
+  background-size: cover;
+}
+.passeio-caixa-1 h1 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 110px;
+}
+.subtitulo-grade:after {
+  content: "";
+  width: 60px;
+  background-color: #fff;
+  height: 3px;
+  margin: 6px auto;
+  display: block;
+}
+.subtitulo-grade:before {
+  content: "";
+  width: 60px;
+  background-color: #fff;
+  height: 3px;
+  margin: 6px auto;
+  display: block;
+}
+
+.caixa-2 {
+  background-color: black;
+  height: 280px;
+  width: 280px;
+}
+.caixa-2 img {
+  padding: 70px 40px;
+}
+
+.grid-um {
+  margin-top: 60px;
+}
+.grid-um-pt2 {
+  margin-top: 295px;
+}
+.caixa-4 p {
+  background-color: #000;
+  color: #fff;
+  padding: 42px 60px 140px;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: -100px;
+}
+
+.caixa-4 ul li {
+  padding-top: 15px;
+  float: left;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  background-color: #fec63e;
+  font-size: 18px;
+}
+
+.caixa-4 ul li:nth-child(even) {
+  margin-left: 2px;
+}
+.caixa-4 ul li:nth-child(1),
+.caixa-4 ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+/*grade dois - esporte*/
+
+.esporte-caixa-1 {
+  background: url("../img/produtos/bikcraft-esporte-1.jpg") no-repeat center;
+  width: 640px;
+  height: 280px;
+  background-size: cover;
+}
+.esporte-caixa-1 h1 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 110px;
+}
+
+/*retro*/
+
+.retro-caixa-1 {
+  background: url("../img/produtos/bikcraft-retro-1.jpg") no-repeat center;
+  width: 640px;
+  height: 280px;
+  background-size: cover;
+}
+.retro-caixa-1 h1 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 110px;
+}

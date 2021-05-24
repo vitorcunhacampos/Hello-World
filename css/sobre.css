@@ -1,0 +1,23 @@
+.introducao-interna-sobre {
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+.missao-sobre {
+  text-align: left;
+  margin-bottom: 60px;
+}
+.missao-sobre .subtitulo {
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.missao-sobre .subtitulo::after {
+  margin: 3px 0;
+}
+
+.qualidade-sobre {
+  margin-bottom: 150px;
+}
+.img-missao {
+  margin-top: 60px;
+}
