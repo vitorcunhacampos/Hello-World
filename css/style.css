@@ -9,10 +9,6 @@ p {
   line-height: 20px;
 }
 
-.header ul li a.menu_ativo {
-  color: #fff;
-}
-
 /*INTRODUÇÃO INTERNA*/
 .introducao-interna {
   width: 100%;
@@ -77,9 +73,9 @@ p {
   top: 0;
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color: #fec63e;
-  padding: 30px;
+  padding: 15px 0;
   z-index: 10;
 }
 
@@ -87,10 +83,14 @@ p {
   float: right;
   text-align: right;
 }
+.header ul li a.menu_ativo {
+  color: #fff;
+}
 
 .header-menu ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 6px;
+  margin-top: 5px;
 }
 .header-menu a {
   color: black;
@@ -103,13 +103,7 @@ p {
 .header-menu a:hover {
   color: #fff;
 }
-/*LOGO*/
-.grid-42 {
-  margin-top: -20px;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+
 /*introdução*/
 .introducao {
   width: 100%;
@@ -190,25 +184,26 @@ p {
   margin-bottom: 20px;
 }
 /*PORTIFOLIO*/
-.portifolio {
+.portfolio {
   width: 100%;
   background-color: black;
   padding-bottom: 40px;
+  margin-bottom: 30px;
 }
-.portifolio .subtitulo {
+.portfolio .subtitulo {
   color: #fec63e;
   padding: 30px;
 }
-.portifolio .subtitulo:after {
+.portfolio .subtitulo:after {
   background-color: #fec63e;
 }
 .espassamento-img-bike {
   padding-top: 20px;
 }
-.portifolio .call {
+.portfolio .call {
   padding-top: 20px;
 }
-.portifolio .call p {
+.portfolio .call p {
   color: #fff;
 }
 /*QUALIDADE*/
@@ -272,7 +267,6 @@ p {
 /*FOOTER*/
 .footer {
   width: 100%;
-  height: 150px;
   background-color: black;
   color: #fff;
   line-height: 25px;

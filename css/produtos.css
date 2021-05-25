@@ -209,3 +209,8 @@
 .quebra-produto {
   margin-top: 0px;
 }
+
+.orcamento input {
+  color: #fff;
+  padding-left: 10px;
+}
