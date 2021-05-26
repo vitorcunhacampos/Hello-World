@@ -9,6 +9,9 @@ p {
   line-height: 20px;
 }
 
+.portifolio .espassamento-img-bike {
+  margin-bottom: 60px;
+}
 /*INTRODUÇÃO INTERNA*/
 .introducao-interna {
   width: 100%;
@@ -85,6 +88,10 @@ p {
 }
 .header ul li a.menu_ativo {
   color: #fff;
+}
+
+.header-menu ul {
+  margin-top: 15px;
 }
 
 .header-menu ul li {
