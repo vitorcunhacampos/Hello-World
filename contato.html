@@ -11,13 +11,14 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
 	<!--HEADER -->
 	<header class="header">
 		<div class="container">
-			<a href="index.html" class="grid-42">
+			<a href="index.html" class="grid-4">
 				<img src="./img/bikcraft.svg" alt="Bikcraft">
 			</a>
 			<nav class="grid-12 header-menu">
@@ -33,14 +34,14 @@
 	<!--INTRODUÇÃO-->
 	<section class="introducao-interna introducao-interna-contato">
 		<div class="container">
-			<h1 class="subtitulo subtitulo-sobre">CONTATO</h1>
-			<p>tire suas dúvidas com a gente</p>
+			<h1 data-anime="400" class="subtitulo subtitulo-sobre fadeInDown">CONTATO</h1>
+			<p data-anime="800" class="fadeInDown">tire suas dúvidas com a gente</p>
 		</div>
 	</section>
 
 	<!--MENSAGEM-->
 
-	<section class="contato">
+	<section data-anime="1200" class="contato fadeInDown">
 		<div class="container">
 			<form id="form-contato" class="grid-8 form" action="">
 				<label for="nome">Nome</label>
@@ -120,6 +121,9 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/simple-slide.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>

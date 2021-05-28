@@ -10,13 +10,14 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/sobre.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
 	<!--HEADER -->
 	<header class="header">
 		<div class="container">
-			<a href="index.html" class="grid-42">
+			<a href="index.html" class="grid-4">
 				<img src="./img/bikcraft.svg" alt="Bikcraft">
 			</a>
 			<nav class="grid-12 header-menu">
@@ -32,19 +33,19 @@
 	<!--INTRODUÇÃO-->
 	<section class="introducao-interna introducao-interna-sobre">
 		<div class="container">
-			<h1 class="subtitulo subtitulo-sobre">SOBRE</h1>
-			<p>"conheça mais sobre a bikcraft"</p>
+			<h1 data-anime="400" class="subtitulo subtitulo-sobre fadeInDown">SOBRE</h1>
+			<p data-anime="500" class="fadeInDown">"conheça mais sobre a bikcraft"</p>
 		</div>
 	</section>
 	<!--HISTÓRIA,MISSÃO E VISÃO, VALORES-->
 	<section class="missao-sobre container">
-		<div class="grid-10">
+		<div data-anime="800" class="grid-10 fadeInDown">
 			<h2 class="subtitulo subtitulo-historia-missao">HISTÓRIA,MISSÃO E VISÃO</h2>
 			<p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
 
 			<p>O verdadeiro segredo da felicidade está em ter um genuíno. interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
 		</div>
-		<div class="grid-6">
+		<div data-anime="800" class="grid-6 fadeInDown">
 			<h2 class="subtitulo subtitulo-historia-missao">VALORES</h2>
 			<ul>
 				<li>
@@ -61,7 +62,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="grid-16 img-missao">
+		<div data-anime="1200" class="grid-16 img-missao fadeInDown">
 			<img src="./img/equipe-bikcraft.jpg" alt="equipe bikcraft">
 		</div>
 	</section>
@@ -134,6 +135,10 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/simple-slide.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>

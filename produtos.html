@@ -11,13 +11,14 @@
 	<link rel="stylesheet" href="css/sobre.css">
 	<link rel="stylesheet" href="css/produtos.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
 	<!--HEADER -->
 	<header class="header">
 		<div class="container">
-			<a href="index.html" class="grid-42">
+			<a href="index.html" class="grid-4">
 				<img src="./img/bikcraft.svg" alt="Bikcraft">
 			</a>
 			<nav class="grid-12 header-menu">
@@ -33,12 +34,12 @@
 	<!--INTRODUÇÃO-->
 	<section class="introducao-interna introducao-interna-produtos">
 		<div class="container">
-			<h1 class="subtitulo subtitulo-sobre">PRODUTOS</h1>
-			<p>"conheça todos os nossos produtos"</p>
+			<h1 data-anime="400" class="subtitulo subtitulo-sobre fadeInDown">PRODUTOS</h1>
+			<p data-anime="800" class="fadeInDown">"conheça todos os nossos produtos"</p>
 		</div>
 	</section>
 	<!--PASSEIO-->
-	<section class="container grid-um">
+	<section data-anime="1200" class="container grid-um fadeInDown">
 		<div class="grid-11 passeio-caixa-1">
 			<h1 class="subtitulo-grade">PASSEIO</h1>
 		</div>
@@ -203,6 +204,9 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/simple-slide.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>

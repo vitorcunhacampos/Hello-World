@@ -272,6 +272,9 @@ p {
 .quebra .quote-externo {
   max-width: 400px;
 }
+.quebra-home {
+  margin-top: 60px;
+}
 /*FOOTER*/
 .footer {
   width: 100%;
@@ -357,27 +360,27 @@ p {
 }
 
 /*JS*/
-[data-slide] {
+.js [data-slide] {
   position: relative;
 }
-[data-slide] > * {
+.js [data-slide] > * {
   position: absolute;
   top: 0px;
   opacity: 0;
 }
-[data-slide] > .active {
+.js [data-slide] > .active {
   position: relative;
   opacity: 1;
   transition: opacity 500ms;
   z-index: 1;
 }
-[data-slide-nav] {
+.js [data-slide-nav] {
   text-align: center;
   margin-top: 10px;
   padding-bottom: 40px;
 }
 
-[data-slide-nav] button {
+.js [data-slide-nav] button {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -390,6 +393,18 @@ p {
   background-color: #1d1d1d;
 }
 
-[data-slide-nav] button.active {
+.js [data-slide-nav] button.active {
   background-color: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+.fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }
